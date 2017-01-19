@@ -1100,10 +1100,6 @@ a {
   z-index: 1;
 }
 
-.debugger, .container {
-  outline: 1px solid red;
-}
-
 .opacityShow {
   opacity: 1;
 }

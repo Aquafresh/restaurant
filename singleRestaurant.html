@@ -49,9 +49,9 @@
 								<div class="mainHeaderBtn">ЗАБРОНИРОВАТЬ СТОЛ</div>
 							</div>
 							<div class="col-md-4">
-								<div class="mainHeaderLogo">
+								<a class="mainHeaderLogo" href='index.html'>
 									<img src="img/logo.png" alt="">
-								</div>
+								</a>
 							</div>
 							<div class="col-md-4">
 								<div class="mainHeaderPhone">Единый телефон  8 800-992-64-31</div>
@@ -64,20 +64,27 @@
 						<nav class="mainHeaderNav">
 							<div class="mainHeaderNavMobile"><span></span></div>
 							<ul class="mainHeaderNavList">
-								<li>
-									<a href="">РЕСТОРАНЫ</a>
+								<li class="scrollMenu">
+									<a href="index.html">РЕСТОРАНЫ</a>
+									<ul class="mainHeaderNavSuplist">
+										<li id="infoScroll">О ресторане</li>
+										<li id="gallery">Фотогалерея</li>
+										<li id="event">События</li>
+										<li id="cook">Шеф-повар</li>
+										<li>АКЦИИ</li>
+									</ul>
 								</li>
 								<li>
-									<a href="">ПРОЕКТЫ</a>
+									<a href="index.html">ПРОЕКТЫ</a>
 								</li>
 								<li>
-									<a href="">НОВОСТИ</a>
+									<a href="news.html">НОВОСТИ</a>
 								</li>
 								<li>
-									<a href="">О НАС</a>
+									<a href="404.html">О НАС</a>
 								</li>
 								<li>
-									<a href="">КОНТАКТЫ</a>
+									<a href="404.html">КОНТАКТЫ</a>
 								</li>
 							</ul>
 						</nav>
@@ -95,7 +102,7 @@
 				<div class="singleRestaurant">
 					<div class="singleRestaurantImg"></div>
 					<div class="container">
-						<div class="singleRestaurantTitle">РЕСТОРАН НА ПЕТРОГРАДСКОЙ</div>
+						<div class="singleRestaurantTitle" data-scroll="infoScroll">РЕСТОРАН НА ПЕТРОГРАДСКОЙ</div>
 						<p class="singleRestaurantSuptitle">Когда каждый день праздник</p>
 						<p class="singleRestaurantSuptitle">деально подходит для романтических вечеров и встреч с друзьями</p>
 						<div class="singleRestaurantInfo">
@@ -103,7 +110,7 @@
 								<div class="singleRestaurantInfoTitle">Адрес</div>
 								<p class="singleRestaurantInfoText">Большая Зеленина, 37</p>
 							</div>
-							<a class="singleRestaurantInfoMenu" href="#">
+							<a class="singleRestaurantInfoMenu" href="singleMenu.html">
 								<div class="singleRestaurantInfoTitle">Меню</div>
 								<p class="singleRestaurantInfoText">Европейская и русская кухня</p>
 							</a>
@@ -115,7 +122,7 @@
 						<div class="singleRestaurantText">
 							Это особое место , куда приходят, чтобы встретиться с друзьями, провести время с семьей и насладиться радушием и гостеприимством, которыми встречает гостей ресторан. Ресторан располагает одним большим залом, который разделен на 3 уютных зоны и тремя по-домашнему уютными гостиными, оформленными в стилях : классическая красная гостиная, шампань (белый зал) и каминная (гостиная-кабинет). Любая из трех гостиных прекрасно подойдет для празднования семейных торжеств . Меню нашего ресторана разработано в традициях русской кухни в авторском исполнении. А для маленьких гостей у нас есть детская комната с интерактивными играми и мультфильмами. По пятницам и субботам для наших гостей звучит музыка в живом исполнении.
 						</div>
-						<div class="singleRestaurantTitle">ФОТОГАЛЕРЕЯ</div>
+						<div class="singleRestaurantTitle" data-scroll="galleryScroll">ФОТОГАЛЕРЕЯ</div>
 						<p class="singleRestaurantSuptitle">Фотографии наших интерьеров</p>
 						<div class="row">
 							<div class="col-md-3 col-sm-6 col-xs-12">
@@ -143,7 +150,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="singleRestaurantTitle">СОБЫТИЯ</div>
+						<div class="singleRestaurantTitle" data-scroll="eventScroll">СОБЫТИЯ</div>
 						<p class="singleRestaurantSuptitle">Все текущие и предстоящие мероприятия</p>
 						<div class="row">
 							<div class="col-md-6 col-sm-6 col-xs-12">
@@ -220,7 +227,7 @@
 								</div>
 							</div>
 						</div>
-					<div class="singleRestaurantTitle">ШЕФ-ПОВАР</div>
+					<div class="singleRestaurantTitle" data-scroll="cookScroll">ШЕФ-ПОВАР</div>
 						<p class="singleRestaurantSuptitle">Важно не только что вам подают, но и кто это готовит</p>
 						<div class="cook">
 							<div class="cookImg">
